@@ -2,10 +2,9 @@
 
 ---
 
-<p align="center">
 ![](https://www.smartsight.in/wp-content/uploads/2020/11/php-300x165.png)
 
-</p>
+
 <p>An organizational portal with the ability to create a personal page for employees, polls, voting, sending and receiving correspondence. Designed using PHP programming languages ​​as the backend, HTML, CSS, and JavaScript as the frontend, and MySQL as the database.</p>
 
 `Author:`
