@@ -1,32 +1,37 @@
-# Organizational-portal
+# 🏢 Organizational Portal
 
 ---
 
-![](https://www.smartsight.in/wp-content/uploads/2020/11/php-300x165.png)
+![📌 Banner](https://www.smartsight.in/wp-content/uploads/2020/11/php-300x165.png)
 
+## 💡 **Organizational Portal** enables employees to create personal pages, participate in polls and votes, and manage correspondence efficiently. Built with **PHP** backend, **MySQL** database, and a responsive frontend using **HTML, CSS, JavaScript** it ensures seamless interaction and streamlined organizational communication.
 
-<p>An organizational portal with the ability to create a personal page for employees, polls, voting, sending and receiving correspondence. Designed using PHP programming languages ​​as the backend, HTML, CSS, and JavaScript as the frontend, and MySQL as the database.</p>
-
-`Author:`
+## 👤 Author
 
 ```json
 {
-"firstName"  : "Mohammad"
-"lastName"   : "Naghavi Olyaei"
-"userName"   : "mohammadna62"
+  "firstName": "Mohammad",
+  "lastName": "Naghavi Olyaei",
+  "userName": "mohammadna62"
 }
 ```
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+---
+
+## 🛠️ Technologies & Packages
+
+### 💻 Core Technologies
+
+![🐘 PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![🌱 MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![🟨 JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![📄 HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![🎨 CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![⚡ jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
 ---
 
-`Sample Code`
+## 💡 Sample Code
 
 ```php
 <?php
@@ -45,7 +50,6 @@ switch ($action){
         break;
         case 'list' :
          $contacts = $contacts_obj->list();
-
         break;
         case 'edit':
             $contact=$contacts_obj->show($_GET['id']);
@@ -64,31 +68,32 @@ switch ($action){
             $contacts_obj->delete($id);
             header("location:?c=contacts&a=list&m=$manager");
         break;
-
 }
 ___
 ```
 
-## List
+---
 
-Ordered:
+## 📋 Lists
 
-1. PHP
-2. Javascript
-3. JQuery
-4. MySQL
+### ✅ Ordered:
 
-Unordered:
+1. 🐘 PHP
+2. 🟨 JavaScript
+3. ⚡ jQuery
+4. 🌱 MySQL
 
-- BackEnd (`PHP`)
-- FrontEnd (`HTML` - `CSS` - `JAVASCRIPT` - `JQUERY`)
+### 🔹 Unordered:
+
+- Backend (`PHP`)
+- Frontend (`HTML` - `CSS` - `JavaScript` - `jQuery`)
 
 ---
 
-[learn about backend](https://www.php.net/)
+## 🌐 Learn More
 
-[learn about javascript](https://www.javascript.com/)
-
-[learn about Data Base](https://www.mysql.com/)
+- [🌟 Learn PHP](https://www.php.net/)
+- [🌟 Learn JavaScript](https://www.javascript.com/)
+- [🌟 Learn MySQL](https://www.mysql.com/)
 
 ---
